@@ -7,7 +7,9 @@ function preload(){
   arrowImage = loadImage("arrow0.png");
   bowImage = loadImage("bow0.png");
   red_balloonImage = loadImage("red_balloon0.png");
-  
+   blue_balloonImage = loadImage("blue_balloon0.png");
+  green_balloonImage = loadImage("green_balloon0.png");
+  pink_balloonImage = loadImage("pink_balloon0.png");
 }
 
 
@@ -110,5 +112,5 @@ function pinkBalloon() {
   pink.addImage(pink_balloonImage);
   pink.velocityX = 3;
   pink.lifetime = 150;
-  pink.scale = 0.1;
+  pink.scale = 1.5;
 }
